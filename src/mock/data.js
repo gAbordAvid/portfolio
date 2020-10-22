@@ -9,18 +9,19 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hi, my name is',
+  name: 'Winnie',
+  subtitle: 'I am a frontend developer',
+  cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'profile.png',
+  paragraphOne: 'Hi, my name is Gábor Dávid and I am a frontend developer.',
+  paragraphTwo: 'I was born in 1991, Budapest, Hungary. I was always passionate about coding and solving problems. I am really greatful to work what I love.',
+  paragraphThree: 'If you want to know more about me, just click the button below.',
+  paragraphFour:'👇',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,30 +29,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'weather.jpg',
+    title: 'Weather App',
+    info: 'Simple weather application. You can search for cities from the whole world and see how the weather is going on there.',
+    info2: 'Written in HTML, CSS, Vanilla Javascript',
+    url: 'https://github.com/gAbordAvid/weatherapp',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'responsive.jpg',
+    title: 'Resposive website',
+    info: 'Minimalist design, responsive layout, perfect landing page.',
+    info2: 'Only HTML and CSS',
+    url: 'https://github.com/gAbordAvid/TindogProject',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'drumkit.jpg',
+    title: 'Drumkit',
+    info: 'Get a little music into your life! Try my drumkit for free!',
+    info2: 'Written in HTML, CSS and Vanilla Javascript',
+    url: 'https://github.com/gAbordAvid/drumkit',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +60,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'mailto:example@email.com',
 };
 
 // FOOTER DATA
@@ -68,22 +69,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/davidgabor91',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/winnetou911',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/g%C3%A1bor-d%C3%A1vid-81b73317b/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/gAbordAvid',
     },
   ],
 };
